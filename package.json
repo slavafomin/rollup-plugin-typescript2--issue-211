@@ -1,14 +1,19 @@
 {
   "name": "ts-gen-types",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "https://github.com/ezolenko/rollup-plugin-typescript2/issues/211",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf ./dist; rollup -c ./rollup.config.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "issue",
+    "rollup",
+    "rollup-plugin-typescript2",
+    "typescript"
+  ],
+  "author": "Slava Fomin II <slava@fomin.io> (https://slava.fomin.io)",
+  "license": "MIT",
   "devDependencies": {
     "rollup": "^1.32.0",
     "rollup-plugin-typescript2": "^0.26.0",
